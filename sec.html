@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Layout Example</title>
+  </head>
+  <body>
+    <header
+      style="background-color: #f2f2f2; padding: 20px; text-align: center"
+    >
+      <h1>Flexbox Layout Example</h1>
+    </header>
+    <main
+      style="
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+      "
+    >
+      <nav style="flex: 1">
+        <ul
+          style="
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+          "
+        >
+          <li style="flex: 1">
+            <a
+              href="#"
+              style="
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                padding: 10px;
+              "
+              >Home</a
+            >
+          </li>
+          <li style="flex: 1">
+            <a
+              href="#"
+              style="
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                padding: 10px;
+              "
+              >About</a
+            >
+          </li>
+          <li style="flex: 1">
+            <a
+              href="#"
+              style="
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                padding: 10px;
+              "
+              >Services</a
+            >
+          </li>
+          <li style="flex: 1">
+            <a
+              href="#"
+              style="
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                padding: 10px;
+              "
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <section class="content" style="flex: 2; margin-right: 20px">
+        <h2>Welcome to our website!</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis
+          aliquet metus, sit amet scelerisque risus.
+        </p>
+      </section>
+      <aside style="flex: 1; background-color: #f2f2f2; padding: 20px">
+        <h3>Recent Posts</h3>
+        <ul style="list-style-type: none; padding: 0; margin: 0">
+          <li><a href="#">Post 1</a></li>
+          <li><a href="#">Post 2</a></li>
+          <li><a href="#">Post 3</a></li>
+          <li><a href="#">Post 4</a></li>
+        </ul>
+      </aside>
+    </main>
+    <footer
+      style="
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      "
+    >
+      <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
